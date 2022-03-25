@@ -34,7 +34,7 @@ const Shop = () => {
                 </div>
                 <div className="col-md-4 col-lg-3 col-12 order-sm-1 order-md-2">
                     <div className="container py-3 my-2">
-            <div>
+            <div id="cart">
                 <Cart></Cart>
             </div>
             </div>
