@@ -1,0 +1,6 @@
+@media screen and (max-width:766.99px){
+    .my-product-width {
+        width: 60% !important;
+        margin: auto !important;
+    }
+}
