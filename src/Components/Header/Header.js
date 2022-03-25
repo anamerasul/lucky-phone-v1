@@ -1,14 +1,10 @@
 import React from 'react';
+import Navbar from './Navbar/Navbar';
 
 const Header = () => {
     return (
         <div>
-            <nav className="navbar navbar-light bg-light">
-            <div className="container">
-                 <a className="navbar-brand" href="/">Lucky Phone</a>
-            </div>
-        </nav>
-            
+        <Navbar></Navbar>
         </div>
     );
 };
