@@ -9,7 +9,7 @@ const Cart = ({ cart, selected, selectPhone, resetItem, removeItem }) => {
     // console.log(selected)
     return (
         <div className='container'>
-            <h3>Select four Phone</h3>
+            <h4>Select four Phone</h4>
             <div className="row">
                 {
                     cart.map(item =>

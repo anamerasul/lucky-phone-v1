@@ -61,8 +61,6 @@ const Shop = () => {
     const [selectPhone, setSelectPhone] = useState([])
 
     const selected = (props) => {
-
-        console.log(props.data)
         let selectedItem = props.data
 
         if (selectedItem.length !== 0) {
@@ -98,6 +96,7 @@ const Shop = () => {
 
     return (
         <div className="container-fluid product-margin-top">
+            <h2 className="text-center text-dark text-capitalize">Choose phone from here</h2>
             <div className="container-fluid new-postition">
                 <div className="row">
                     <div className="col-md-8 col-lg-9 col-12 order-2 order-md-1">
