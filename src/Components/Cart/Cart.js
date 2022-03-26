@@ -1,10 +1,38 @@
-import React from 'react';
+/* eslint-disable jsx-a11y/img-redundant-alt */
+
 import './Cart.css'
-const Cart = () => {
+import Selected from './Selected/Selected';
+import { MdDelete } from 'react-icons/md';
+const Cart = ({ cart, selected, selectPhone, resetItem, removeItem }) => {
+
+    // console.log(selected)
     return (
-        <div>
-            <h5>Cart</h5>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas harum optio aperiam corrupti ullam assumenda officia, velit aut vero ipsa inventore qui, molestiae maiores nulla nostrum totam sunt tenetur voluptatem incidunt odio aliquam quos, quia placeat molestias! Tenetur quibusdam dolores iusto ex quisquam quidem, perspiciatis enim numquam atque amet dolore quod eius rerum repudiandae et facere laudantium blanditiis similique suscipit voluptatem illo omnis. Repellendus repudiandae animi eum voluptatum ab rem ullam libero qui. Quo perspiciatis voluptatem voluptatum quidem vel, consectetur natus rem ut quibusdam non quisquam totam, officia laboriosam officiis assumenda asperiores amet nemo similique fugiat earum, maxime vitae provident?</p>
+        <div className='container'>
+            <h3>Selected Phone</h3>
+            <div className="row">
+                {
+                    cart.map(item =>
+                        <div className="col-6 mb-3"
+                            key={item.id}
+                        >
+                            <div className="card w-50  h-25">
+                                <img src={item.image} className="img-fluid" alt="image"></img>
+                                <div className="card-body m-auto">
+                                    <p className="card-text">{item.name}</p>
+                                    <button className="btn btn-warning" onClick={() => removeItem(item)}> <MdDelete></MdDelete></button>
+                                </div>
+                            </div>
+                        </div>
+                    )
+                }
+
+
+                <Selected data={cart}
+                    resetItem={resetItem}
+                    selectPhone={selectPhone}
+                    selected={selected}
+                ></Selected>
+            </div>
         </div>
     );
 };

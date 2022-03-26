@@ -1,12 +1,11 @@
-{
-    "status": true,
-    "data": [
+[
       {
         "id":1,
         "brand": "Apple ",
         "name": "iPhone 13 mini",
         "slug": "apple_iphone_13_mini-11104",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg",
+        "quantity":0,
         "price":449
       },
       {
@@ -15,6 +14,7 @@
         "name": "iPhone 13 Pro",
         "slug": "apple_iphone_13_pro-11102",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg",
+        "quantity":0,
         "price":499
       },
       {
@@ -23,6 +23,7 @@
         "name": "iPhone 13 Pro Max",
         "slug": "apple_iphone_13_pro_max-11089",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg",
+        "quantity":0,
         "price":599
       },
       {
@@ -31,6 +32,7 @@
         "name": "iPhone 13",
         "slug": "apple_iphone_13-11103",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg",
+        "quantity":0,
         "price":649
       },
       {
@@ -39,6 +41,7 @@
         "name": "iPhone 12 Pro Max",
         "slug": "apple_iphone_12_pro_max-10237",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max-.jpg",
+        "quantity":0,
         "price":799
       },
       {
@@ -47,6 +50,7 @@
         "name": "iPhone 12 Pro",
         "slug": "apple_iphone_12_pro-10508",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro--.jpg",
+        "quantity":0,
         "price":899
       },
       {
@@ -55,6 +59,7 @@
         "name": "Galaxy M12",
         "slug": "samsung_galaxy_m12-10860",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m12.jpg",
+        "quantity":0,
         "price":250
       },
       {
@@ -63,6 +68,7 @@
         "name": "Galaxy Quantum 2",
         "slug": "samsung_galaxy_quantum_2-10850",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-quantum-2-sm-a826s.jpg",
+        "quantity":0,
         "price":350
       },
       {
@@ -71,6 +77,7 @@
         "name": "Galaxy F02s",
         "slug": "samsung_galaxy_f02s-10824",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f02s.jpg",
+        "quantity":0,
         "price":400
       },
       {
@@ -79,6 +86,7 @@
         "name": "Mate X2 4G",
         "slug": "huawei_mate_x2_4g-10987",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate-x2-new.jpg",
+        "quantity":0,
         "price":200
       },
       {
@@ -87,6 +95,7 @@
         "name": "MatePad Pro 12.6 (2021)",
         "slug": "huawei_matepad_pro_12_6_(2021)-10942",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-matepad-pro-126-2021-new.jpg",
+        "quantity":0,
         "price":600
       },
       {
@@ -95,7 +104,7 @@
         "name": "MatePad Pro 10.8 (2021)",
         "slug": "huawei_matepad_pro_10_8_(2021)-10938",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-matepad-pro-108-2021-new.jpg",
+        "quantity":0,
         "price":450
       }
     ]
-  }
