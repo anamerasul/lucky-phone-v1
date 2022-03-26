@@ -1,5 +1,6 @@
+/* eslint-disable array-callback-return */
 import React, { useEffect, useState } from 'react';
-import { addToDb, getStoredCart } from '../../Utilities/FakeDb';
+// import { addToDb, getStoredCart } from '../../Utilities/FakeDb';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Shop.css'
@@ -38,25 +39,24 @@ const Shop = () => {
         }
 
         setCart(newCart)
-        addToDb(sproduct.id)
+        // addToDb(sproduct.id)
     }
 
-    useEffect(() => {
-        const storedCart = getStoredCart()
-        const savedCart = []
+    // useEffect(() => {
+    //     const storedCart = getStoredCart()
+    //     const savedCart = []
 
-        for (const id in storedCart) {
-            const addedProduct = products.find(product => product.id === id)
+    //     for (const id in storedCart) {
+    //         const addedProduct = products.find(product => product.id === id)
 
-            if (addedProduct) {
-                const quantity = storedCart[id];
-                addedProduct.quantity = quantity
-                console.log(addedProduct.length)
-                savedCart.push(addedProduct)
-            }
-        }
-        setCart(savedCart)
-    }, [products])
+    //         if (addedProduct) {
+    //             const quantity = storedCart[id];
+    //             addedProduct.quantity = quantity
+    //             savedCart.push(addedProduct)
+    //         }
+    //     }
+    //     setCart(savedCart)
+    // }, [products])
 
     const [selectPhone, setSelectPhone] = useState([])
 
@@ -82,16 +82,14 @@ const Shop = () => {
     }
     const [removeIt, setRemoveIt] = useState([])
     const removeItem = (props) => {
-        // console.log(props.id);
+        // console.log(props.id)
         cart?.find(product => {
             if (product?.id === props.id) {
-                cart.pop(props)
-
+                cart.pop(product)
             }
         })
+        removeIt.push(cart);
         setRemoveIt([...cart])
-
-
     }
 
 
@@ -102,7 +100,7 @@ const Shop = () => {
         <div className="container-fluid product-margin-top">
             <div className="container-fluid new-postition">
                 <div className="row">
-                    <div className="col-md-8 col-lg-9 col-12 order-2 order-sm-1">
+                    <div className="col-md-8 col-lg-9 col-12 order-2 order-md-1">
                         <div className="container py-3 my-2">
                             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
@@ -118,7 +116,7 @@ const Shop = () => {
                             </div>
                         </div>
                     </div>
-                    <div id='cart' className="col-md-4 col-lg-3 col-12 order-1 order-sm-2">
+                    <div id='cart' className="col-md-4 col-lg-3 col-12 order-1 order-md-2">
                         <div className="container py-3 my-2 my-cart">
                             <div >
                                 <Cart

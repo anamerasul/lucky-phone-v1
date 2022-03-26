@@ -5,17 +5,18 @@ import Selected from './Selected/Selected';
 import { MdDelete } from 'react-icons/md';
 const Cart = ({ cart, selected, selectPhone, resetItem, removeItem }) => {
 
+    // console.log(cart.length)
     // console.log(selected)
     return (
         <div className='container'>
-            <h3>Selected Phone</h3>
+            <h3>Select four Phone</h3>
             <div className="row">
                 {
                     cart.map(item =>
                         <div className="col-6 mb-3"
                             key={item.id}
                         >
-                            <div className="card w-50  h-25">
+                            <div className="card w-50 h-25">
                                 <img src={item.image} className="img-fluid" alt="image"></img>
                                 <div className="card-body m-auto">
                                     <p className="card-text">{item.name}</p>
@@ -27,11 +28,18 @@ const Cart = ({ cart, selected, selectPhone, resetItem, removeItem }) => {
                 }
 
 
-                <Selected data={cart}
-                    resetItem={resetItem}
-                    selectPhone={selectPhone}
-                    selected={selected}
-                ></Selected>
+                <div style={cart.length ? { display: 'block' } : { display: 'none' }}>
+
+                    <Selected
+                        data={cart}
+                        resetItem={resetItem}
+                        selectPhone={selectPhone}
+                        selected={selected}
+                    ></Selected>
+
+                </div>
+
+
             </div>
         </div>
     );
