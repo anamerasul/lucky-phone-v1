@@ -5,14 +5,16 @@
 
 # Live website 
 
-[](https://luckyphone.netlify.app).
+[Lucky phone](https://luckyphone.netlify.app).
+
+https://luckyphone.netlify.app
 
 
 
 
 ### Getting Started with Lucky phone
 
-This project was bootstrapped with [React](https://luckyphone.netlify.app).
+This project was bootstrapped with [Lucky phone](https://luckyphone.netlify.app).
 
 ## Available Scripts
 
