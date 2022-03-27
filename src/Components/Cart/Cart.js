@@ -4,7 +4,6 @@ import './Cart.css'
 import Selected from './Selected/Selected';
 import { MdDelete } from 'react-icons/md';
 const Cart = ({ cart, selected, selectPhone, resetItem, removeItem }) => {
-    console.log(cart.length)
     // console.log(selected)
 
     return (
