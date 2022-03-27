@@ -28,11 +28,38 @@ const Faq = () => {
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="flush-headingTwo">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                            Accordion Item #2
+                            What are the differences between props and state?
                         </button>
                     </h2>
                     <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                        <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> className. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                        <div className="accordion-body">
+
+                            <p>props:
+                                <ol>
+                                    <li>Props are read-only.</li>
+                                    <li>Props are immutable.</li>
+                                    <li>Props enable you to pass information from one element to different parts as Associate in Nursing argument..</li>
+                                    <li>Props are often accessed by the kid element.</li>
+                                    <li>Props are use to communicate between components.</li>
+                                    <li>Stateless element will have Props.</li>
+                                    <li>Props are external and controlled by whatever renders the component.</li>
+                                </ol>
+
+                                <p>
+                                    State:
+                                    <ol>
+                                        <li>State changes can be asynchronous.</li>
+                                        <li>State is mutable .</li>
+                                        <li>State changes will be asynchronous.</li>
+                                        <li>State can not be accessed by kid elements.</li>
+                                        <li>States are often used for rendering dynamic changes with the component</li>
+                                        <li>Stateless elements cannot have State.</li>
+                                        <li> The State is internal and controlled by the React elements itself.</li>
+                                    </ol>
+                                </p>
+
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div className="accordion-item">
