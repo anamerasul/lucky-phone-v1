@@ -1,8 +1,39 @@
-# Getting Started with Create React App
+# Project Name
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### lucky-phone
+
+
+# Live website 
+
+[](https://luckyphone.netlify.app).
+
+
+
+
+### Getting Started with Lucky phone
+
+This project was bootstrapped with [React](https://luckyphone.netlify.app).
 
 ## Available Scripts
+
+## dependencies
+    "@heroicons/react": "^1.0.6",
+    "@react-icons/all-files": "^4.1.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.8.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.2.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-scripts": "5.0.0",
+    "web-vitals": "^2.1.0"
+  
+
+
+
 
 In the project directory, you can run:
 
@@ -45,9 +76,9 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Live webdite
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This section has moved here: [https://luckyphone.netlify.app](https://luckyphone.netlify.app)
 
 ### Analyzing the Bundle Size
 
