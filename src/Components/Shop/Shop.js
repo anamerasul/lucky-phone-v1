@@ -29,7 +29,6 @@ const Shop = () => {
             return false;
         }
         if (!exits) {
-            sproduct.quantity = 1
             newCart = [...cart, sproduct];
         }
         else {
