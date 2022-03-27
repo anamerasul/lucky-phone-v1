@@ -1,11 +1,11 @@
 # Project Name
 
-#### lucky-phone
+#### favored-phone
 
 
 # Live website 
 
-[Lucky phone](https://luckyphone.netlify.app).
+[favored-phone](https://luckyphone.netlify.app).
 
 https://luckyphone.netlify.app
 
@@ -14,7 +14,7 @@ https://luckyphone.netlify.app
 
 ### Getting Started with Lucky phone
 
-This project was bootstrapped with [Lucky phone](https://luckyphone.netlify.app).
+This project was bootstrapped with [favored-phone](https://luckyphone.netlify.app).
 
 ## Available Scripts
 

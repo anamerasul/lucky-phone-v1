@@ -5,7 +5,7 @@ const Navbar = () => {
         <div className="">
             <nav className="navbar navbar-light bg-light fixed-top">
                 <div className="container mx-auto">
-                    <a className="navbar-brand fs-2 fw-bold text-uppercase text-dark" href="/">Lucky <span className="text-secondary">Phone</span></a>
+                    <a className="navbar-brand fs-2 fw-bold text-uppercase text-dark" href="/">Favored <span className="text-secondary">Phone</span></a>
                 </div>
             </nav>
         </div>
