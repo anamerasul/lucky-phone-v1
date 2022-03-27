@@ -23,7 +23,7 @@ const Selected = (props) => {
                         </div>
                         {/* 
             <p>Name:you are selected:{selectPhone?.name}</p> */}
-                        <button onClick={() => selected(props)} className="btn btn-info mt-3">select for you</button><br />
+                        <button onClick={() => selected(props)} className="btn btn-info mt-3">Random selection</button><br />
                         <button onClick={() => resetItem(props)} className="btn btn-danger  mt-3">reset</button>
                     </div>
 
