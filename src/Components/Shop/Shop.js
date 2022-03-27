@@ -80,14 +80,17 @@ const Shop = () => {
     }
     const [removeIt, setRemoveIt] = useState([])
     const removeItem = (props) => {
-        // console.log(props.id)
-        cart?.find(product => {
+        // console.log(props)
+        const deleteArry = [props]
+        cart.find(product => {
             if (product?.id === props.id) {
-                cart.pop(product)
+                cart.pop(deleteArry)
             }
         })
         removeIt.push(cart);
-        setRemoveIt([...cart])
+        setRemoveIt([...cart, ...deleteArry])
+
+
     }
 
 
